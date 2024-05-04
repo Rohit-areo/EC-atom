@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <style>
+        .back-img {
+            background-image: url("https://img.freepik.com/free-photo/html-system-website-concept_23-2150376770.jpg?size=626&ext=jpg&ga=GA1.2.1135161770.1697302442&semt=ais");
+            background-size: cover;
+        }
+
+        .back-img2 {
+            background-image: url("https://img.freepik.com/free-photo/composition-with-html-system-websites_23-2150866277.jpg?w=360&t=st=1703873830~exp=1703874430~hmac=a9e7d3275b5542563f0daa90b65194a48224f31fc1f5f3f3d203ca7c9188e610");
+            background-size: cover;
+        }
+
+        .qus-code {
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .favourite-place-card-heading {
+            color: white;
+            font-family: "Roboto";
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .favourite-place-card-description {
+            color: white;
+            font-family: "Roboto";
+            font-size: 13px;
+        }
+
+        .image {
+            height: 100px;
+            width: 100px;
+            border-radius: 4px;
+        }
+
+        .body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+
+        .section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .h2 {
+            color: #333;
+        }
+
+        .milestone {
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            background-color: #f9f9f9;
+        }
+
+        .h1 {
+            background-color: #5f7d67;
+        }
+
+        .note {
+            background-color: white;
+            border-radius: 16px;
+            border: bold;
+            margin: 12px;
+
+        }
+
+        .co-head {
+            text-align: center;
+            color: white;
+            font-family: inherit;
+        }
+
+        .roadmap-container {
+            max-width: 600px;
+            width: 100%;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        .ol {
+            padding: 0;
+            list-style-position: inside;
+        }
+
+        .li {
+            margin-bottom: 10px;
+        }
+
+        .a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        .a:hover {
+            text-decoration: underline;
+        }
+
+        /* Define the animation */
+        @keyframes slideIn {
+            from {
+                transform: translateX(-100%);
+            }
+
+            to {
+                transform: translateX(0);
+            }
+        }
+
+        /* Apply the animation to the heading */
+        .animated-heading {
+            animation: slideIn 2s ease-out;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <div class="co-head back-img">
+            <!-- Your heading element with the animated-heading class -->
+            <h1 class="animated-heading">Web Development Roadmap</h1>
+        </div>
+        <div class="back-img2">
+            <div class="qus-code">
+                <h1 class="favourite-place-card-heading">What is Web Development Roadmap??</h1>
+                <p class="favourite-place-card-description">Web development refers to the process of building and maintaining websites or web applications. It involves a range of tasks and skills that contribute to the creation of a functional and visually appealing website.
+                    Web development can be broken down into two main categories: front-end development and back-end development.</p>
+            </div>
+        </div>
+    </div>
+    <div class="note border border-dark">
+        <h1>Top Question</h1>
+        <ul>
+            <a href="" target="">
+                <li>What skills should a good Web Developer have? ...</li>
+            </a>
+            <a href="" target="">
+                <li>Are you aware of the roles and responsibilities of a Web Developer? ...</li>
+            </a>
+            <a href="" target="">
+                <li>What are the added benefits of HTTP/2 compared to HTTP 1.1? ...</li>
+            </a>
+            <a href="" target="">
+                <li>Can you list a few ways to speed up Page Loading? ...</li>
+            </a>
+            <a href="" target="">
+                <li>How is XHTML different from HTML?...</li>
+            </a>
+            <a href="" target="">
+                <li>List out newly introduced input types, APIs, form elements, and elements that support media content in HTML5.</li>
+            </a>
+            <a href="" target="">
+                <li>Explain Webpack.??</li>
+            </a>
+        </ul>
+
+    </div>
+    <header>
+        <h1 class="h1">Web Development Roadmap</h1>
+    </header>
+
+    <section>
+        <div id="roadmap-container">
+
+            <ol>
+                <li>Learn HTML and CSS
+                    <ul>
+                        <li>HTML Basics</li>
+                        <li>CSS Basics</li>
+                    </ul>
+                </li>
+
+                <li>Understand Responsive Web Design
+                    <ul>
+                        <li>Media Queries</li>
+                        <li>Flexbox and Grid</li>
+                    </ul>
+                </li>
+
+                <li>Explore JavaScript
+                    <ul>
+                        <li>Basic Concepts</li>
+                        <li>DOM Manipulation</li>
+                        <li>Event Handling</li>
+                    </ul>
+                </li>
+
+                <li>Learn a Version Control System
+                    <ul>
+                        <li>Git and GitHub</li>
+                    </ul>
+                </li>
+
+                <li>Front-End Frameworks
+                    <ul>
+                        <li>React.js or Vue.js</li>
+                    </ul>
+                </li>
+
+                <li>Back-End Basics
+                    <ul>
+                        <li>Node.js or Django or Flask</li>
+                        <li>RESTful APIs</li>
+                    </ul>
+                </li>
+
+                <li>Database Basics
+                    <ul>
+                        <li>SQL (e.g., MySQL or PostgreSQL)</li>
+                        <li>NoSQL (e.g., MongoDB)</li>
+                    </ul>
+                </li>
+
+                <li>Server-Side Rendering (SSR) or Static Site Generation (SSG)</li>
+
+                <li>API Authentication</li>
+
+                <li>Learn Build Tools
+                    <ul>
+                        <li>Webpack or Parcel</li>
+                    </ul>
+                </li>
+
+                <li>Testing in Web Development</li>
+
+                <li>Deployment
+                    <ul>
+                        <li>Heroku or Netlify or Vercel</li>
+                    </ul>
+                </li>
+
+                <li>Continuous Integration and Continuous Deployment (CI/CD)</li>
+
+                <li>Explore Web Security
+                    <ul>
+                        <li>HTTPS</li>
+                        <li>OWASP Top Ten</li>
+                    </ul>
+                </li>
+
+                <li>Explore Progressive Web Apps (PWAs)</li>
+
+                <li>Explore Web Performance Optimization</li>
+            </ol>
+
+            <p>For more details, refer to the <a href="https://roadmap.sh/frontend" target="_blank">Frontend Developer Roadmap</a>.</p>
+        </div>
+        <div>
+            <h1>Things to Learn</h1>
+            <div class="note border border-dark">
+                <ul>
+                    <a href="" target="">
+                        <li>HTML (HyperText Markup Language)</li>
+                    </a>
+                    <a href="" target="">
+                        <li>CSS (Cascading Style Sheets)</li>
+                    </a>
+                    <a href="" target="">
+                        <li>JavaScript</li>
+                    </a>
+                    <a href="" target="">
+                        <li>Responsive Design</li>
+                    </a>
+                    <a href="" target="">
+                        <li>Version Control (e.g., Git)</li>
+                    </a>
+                    <a href="" target="">
+                        <li>Front-End Frameworks (e.g., React, Angular, or Vue)</li>
+                    </a>
+                    <a href="" target="">
+                        <li>Back-End Development:</li>
+                    </a>
+                    <a href="" target="">
+                        <li>Databases (e.g., SQL, NoSQL)</li>
+                    </a>
+                    <a href="" target="">
+                        <li>APIs (Application Programming Interfaces)</li>
+                    </a>
+                    <a href="" target="">
+                        <li>Web Development Tools</li>
+                    </a>
+                </ul>
+            </div>
+    </section>
+    <script>
+        // JavaScript to add the animated-heading class after a delay
+        document.addEventListener('DOMContentLoaded', function() {
+            var heading = document.querySelector('.animated-heading');
+
+            // Add the animated-heading class after a delay (e.g., 1 second)
+            setTimeout(function() {
+                heading.classList.add('animated-heading');
+            }, 1000);
+        });
+    </script>
+</body>
+
+</html>
